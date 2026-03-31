@@ -1,4 +1,4 @@
-# Submitted by Ann Rose
+# Submitted by Ann Rose Mathew
 
 ## Workflow: How to Clone and Contribute
 
