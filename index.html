@@ -1,31 +1,68 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FOSS Club Events</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOSS Club Events</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>FOSS Club</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Events</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <h1>FOSS Club</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Events</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <h2>Upcoming Events</h2>
+    <main>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <div class="events-container">
+                <!-- Event Card 1 -->
+                <div class="event-card">
+                    <img src="images/event1.jpg" alt="Event 1">
+                    <h3>GIT HUB Basics</h3>
+                    <p class="event-date">April 10, 2026</p>
+                    <p>Learn how to use Git and GitHub for version control and collaboration.</p>
+                    <a href="register.html"><button>Register</button></a>
+                </div>
+                <!-- Event Card 2 -->
+                <div class="event-card">
+                    <img src="images/event2.jpg" alt="Event 2">
+                    <h3>Open Source 101</h3>
+                    <p class="event-date">April 13, 2026</p>
+                    <p>An introductory session on the basics of open source and how to get started.</p>
+                    <a href="register.html"><button>Register</button></a>
+                </div>
+                <!-- Event Card 3 -->
+                <div class="event-card">
+                    <img src="images/event3.jpg" alt="Event 3">
+                    <h3>Linux Mastery</h3>
+                    <p class="event-date">April 20, 2026</p>
+                    <p>Master the command line and learn the essentials of the Linux operating system.</p>
+                    <a href="register.html"><button>Register</button></a>
+                </div>
+                <!-- Event Card 4 -->
+                <div class="event-card">
+                    <img src="images/event4.jpg" alt="Event 4">
+                    <h3>Hacktoberfest Prep</h3>
+                    <p class="event-date">April 25, 2026</p>
+                    <p>Get ready for Hacktoberfest and learn how to make your first contribution.</p>
+                    <a href="register.html"><button>Register</button></a>
+                </div>
+            </div>
+        </section>
 
-
-      <div class="card">
-        <h3>GIT HUB Basics</h3>
-        <p class="date">April 10, 2026</p>
-        <p>Learn basics of GIT HUB</p>
-        <button>Register</button>
-      </div>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@fossclub.org</p>
+            <p>Location: Tech Hub, Room 101</p>
+            <p>Phone: +1 (555) 123-4567</p>
+        </section>
+    </main>
 
 </body>
 </html>
